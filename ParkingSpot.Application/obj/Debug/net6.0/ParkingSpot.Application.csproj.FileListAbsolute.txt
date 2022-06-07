@@ -1,0 +1,15 @@
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.csproj.AssemblyReference.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.AssemblyInfoInputs.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.AssemblyInfo.cs
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.csproj.CoreCompileInputs.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\bin\Debug\net6.0\ParkingSpot.Application.deps.json
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\bin\Debug\net6.0\ParkingSpot.Application.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\bin\Debug\net6.0\ParkingSpot.Application.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\bin\Debug\net6.0\ParkingSpot.Core.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\bin\Debug\net6.0\ParkingSpot.Core.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.csproj.CopyComplete
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\refint\ParkingSpot.Application.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ParkingSpot.Application.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Application\obj\Debug\net6.0\ref\ParkingSpot.Application.dll

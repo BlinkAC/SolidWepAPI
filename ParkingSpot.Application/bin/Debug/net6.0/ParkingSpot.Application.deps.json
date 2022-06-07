@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ParkingSpot.Application/1.0.0": {
+        "dependencies": {
+          "ParkingSpot.Core": "1.0.0"
+        },
+        "runtime": {
+          "ParkingSpot.Application.dll": {}
+        }
+      },
+      "ParkingSpot.Core/1.0.0": {
+        "runtime": {
+          "ParkingSpot.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ParkingSpot.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ParkingSpot.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ADuF4q0eL+rVQbv7uXPItd0lynlpTMzKskkcDDKuvtk=",
+  "Source": "ParkingSpot.Api",
+  "BasePath": "_content/ParkingSpot.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

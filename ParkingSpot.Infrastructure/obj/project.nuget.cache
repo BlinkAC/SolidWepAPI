@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eHmo1/VccB+jjohMd+evFDtCleSnwLWiwAG7mcLkJ4IxVrA9Munme/zKLmemXdGCmo0Y8+TVMs9nTIPxHJtyIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

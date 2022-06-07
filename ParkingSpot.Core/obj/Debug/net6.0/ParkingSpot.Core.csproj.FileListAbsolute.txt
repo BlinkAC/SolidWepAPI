@@ -1,0 +1,12 @@
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.csproj.AssemblyReference.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.AssemblyInfoInputs.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.AssemblyInfo.cs
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.csproj.CoreCompileInputs.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\bin\Debug\net6.0\ParkingSpot.Core.deps.json
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\bin\Debug\net6.0\ParkingSpot.Core.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\bin\Debug\net6.0\ParkingSpot.Core.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\refint\ParkingSpot.Core.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ParkingSpot.Core.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\ParkingSpot.Core\obj\Debug\net6.0\ref\ParkingSpot.Core.dll
