@@ -17,7 +17,7 @@ namespace ParkingSpot.Infrastructure.Repositories
             new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-0000-000000000003"), new Week(clock.Current()), "P3"),
             new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-0000-000000000004"), new Week(clock.Current()), "P4"),
             new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-0000-000000000005"), new Week(clock.Current()), "P5")
-        }; ;
+        };
         }
         public IEnumerable<WeeklyParkingSpot> GetAll() => _weeklyParkingSpots;
 
@@ -35,5 +35,8 @@ namespace ParkingSpot.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public IEnumerable<WeeklyParkingSpot> GetByWeek(Week week)
+            => _weeklyParkingSpots.Where(sp => sp.Week == week).ToList();
     }
 }

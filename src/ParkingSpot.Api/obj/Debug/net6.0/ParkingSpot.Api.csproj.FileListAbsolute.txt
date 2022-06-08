@@ -30,3 +30,12 @@ C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\ParkingSpot.Core.pdb
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\ParkingSpot.Application.dll
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\ParkingSpot.Application.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Npgsql.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\obj\Debug\net6.0\ParkingSpot.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
