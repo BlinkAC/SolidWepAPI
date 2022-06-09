@@ -14,7 +14,7 @@ builder
     .Services
     .AddAplication() //ReservationSerice
     .AddCore()
-    .AddInfrastructure() //Iclock e InMemory
+    .AddInfrastructure(builder.Configuration) //Iclock e InMemory
     .AddControllers();
 //Componentes agregados desde cada capa/protecto
 //esto hace que las clases internas sigan siendo unicamente accesibles 
