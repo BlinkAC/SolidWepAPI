@@ -19,24 +19,36 @@ namespace ParkingSpot.Infrastructure.Repositories
             new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-0000-000000000005"), new Week(clock.Current()), "P5")
         };
         }
-        public IEnumerable<WeeklyParkingSpot> GetAll() => _weeklyParkingSpots;
-
-        public WeeklyParkingSpot Get(ParkingSpotId id) => _weeklyParkingSpots.SingleOrDefault(sp => sp.Id == id);
-
-
-
-        public void Add(WeeklyParkingSpot parkingSpot)
+        public async Task<IEnumerable<WeeklyParkingSpot>> GetAllAsync() 
         {
+            await Task.CompletedTask;
+        return _weeklyParkingSpots;
+        } 
+
+        public async Task<WeeklyParkingSpot> GetAsync(ParkingSpotId id) {
+
+            await Task.CompletedTask;
+            return _weeklyParkingSpots.SingleOrDefault(sp => sp.Id == id);
+        } 
+
+
+
+        public async Task AddAsync(WeeklyParkingSpot parkingSpot)
+        {
+            await Task.CompletedTask;
             _weeklyParkingSpots.Add(parkingSpot);
         }
 
 
-        public void Update(WeeklyParkingSpot parkingSpot)
+        public Task UpdateAsync(WeeklyParkingSpot parkingSpot)
         {
-            throw new NotImplementedException();
+            return Task.CompletedTask;
         }
 
-        public IEnumerable<WeeklyParkingSpot> GetByWeek(Week week)
-            => _weeklyParkingSpots.Where(sp => sp.Week == week).ToList();
+        public async Task<IEnumerable<WeeklyParkingSpot>> GetByWeekAsync(Week week)
+        {
+            await Task.CompletedTask;
+            return _weeklyParkingSpots.Where(sp => sp.Week == week).ToList();
+        } 
     }
 }

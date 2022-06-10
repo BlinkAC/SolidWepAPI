@@ -26,13 +26,13 @@ namespace ParkingSpot.Api.Controllers
             _reservationService = reservationService;
         }
         [HttpGet]
-        public ActionResult<ReservationDTO[]> Get() => Ok(_reservationService.GetAllWeekly());
+        public async Task<ActionResult<ReservationDTO[]>> Get() => Ok(await _reservationService.GetAllWeeklyAsync());
 
 
         [HttpGet("{Id:guid}")]
-        public ActionResult<ReservationDTO> GetSingle( Guid Id)
+        public async Task<ActionResult<ReservationDTO>> GetSingle( Guid Id)
         {
-            var reservation = _reservationService.GetSingle(Id);
+            var reservation = await _reservationService.GetSingleAsync(Id);
 
             if (reservation is null)
             {
@@ -42,9 +42,9 @@ namespace ParkingSpot.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult post([FromBody] CreateReservation command)
+        public async Task<ActionResult> post([FromBody] CreateReservation command)
         {
-            var id = _reservationService.Create(command with { ReservationId = Guid.NewGuid() } );
+            var id = await _reservationService.CreateAsync(command with { ReservationId = Guid.NewGuid() } );
 
             if(id == null)
             {
@@ -60,10 +60,10 @@ namespace ParkingSpot.Api.Controllers
         }
 
         [HttpPut("{Id:guid}")]
-        public ActionResult put( Guid Id, ChangeReservationLicensePlate command)
+        public async Task<ActionResult> put( Guid Id, ChangeReservationLicensePlate command)
         {
             
-            var succeeded = _reservationService.Update(command with { ReservationId = Id } );
+            var succeeded = await _reservationService.UpdateAsync(command with { ReservationId = Id } );
 
             if(!succeeded)
             {
@@ -74,9 +74,9 @@ namespace ParkingSpot.Api.Controllers
         }
 
         [HttpDelete("{Id:int}")]
-        public ActionResult delete( Guid Id)
+        public async Task<ActionResult> delete( Guid Id)
         {
-            var succeeded = _reservationService.Delete( new DeleteReservation(Id) );    
+            var succeeded = await _reservationService.DeleteAsync( new DeleteReservation(Id) );    
 
             if (!succeeded)
             {
