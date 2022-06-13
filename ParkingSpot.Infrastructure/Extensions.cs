@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.Repositories;
+using ParkingSpot.Infrastructure.DAL;
 using ParkingSpot.Infrastructure.Repositories;
 using ParkingSpot.Infrastructure.Time;
 using System.Runtime.CompilerServices;
@@ -15,7 +16,8 @@ namespace ParkingSpot.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
             services
-                .AddSingleton<IWeeklyParkingSpotRepository, InMemoryWeeklyParkingSpotRepository>()
+                .AddPostgres()
+                //.AddSingleton<IWeeklyParkingSpotRepository, InMemoryWeeklyParkingSpotRepository>()
                 .AddSingleton<IClock, Clock>();
             return services;
         } 

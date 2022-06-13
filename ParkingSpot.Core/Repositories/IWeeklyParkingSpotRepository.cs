@@ -12,7 +12,7 @@ namespace ParkingSpot.Core.Repositories
     {
         IEnumerable<WeeklyParkingSpot> GetAll();
         WeeklyParkingSpot Get(ParkingSpotId id);
-
+        IEnumerable<WeeklyParkingSpot> GetByWeek(Week week);
         public void Add(WeeklyParkingSpot parkingSpot);
         public void Update(WeeklyParkingSpot parkingSpot);
 
