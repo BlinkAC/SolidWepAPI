@@ -9665,11 +9665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
+      "projectUniqueName": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
       "projectName": "MySpot.Tests.Unit",
-      "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
+      "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
       "packagesPath": "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\tests\\MySpot.Tests.Unit\\obj\\",
+      "outputPath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\tests\\MySpot.Tests.Unit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oscar.a.a.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9686,8 +9686,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj": {
-              "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj"
+            "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj": {
+              "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj"
             }
           }
         }

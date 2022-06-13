@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TX0Y+4vJfYkTnhT/HVU0LkUv/DaK6C0sta32In1Ngza0O0WG8qsN08gnqUrvjNl7CLfe+T8zC4dKZVYHpkdf6w==",
+  "dgSpecHash": "SBD/WI+wHtx/cXYxdXyrU+jtktUTPwuTtlxUsqJl4/s6zKwqSIaNEinXfrH1XZ1EhRRg7+iJzILr6cNIQMklgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj",
+  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
