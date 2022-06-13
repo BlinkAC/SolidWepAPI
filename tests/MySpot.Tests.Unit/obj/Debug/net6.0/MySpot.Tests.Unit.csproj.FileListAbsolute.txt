@@ -216,3 +216,15 @@ C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\Npgsql.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Application.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Core.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Infrastructure.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Application.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Core.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Infrastructure.pdb

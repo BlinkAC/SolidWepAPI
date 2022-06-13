@@ -5,49 +5,51 @@ using ParkingSpot.Core.Repositories;
 using ParkingSpot.Infrastructure.Repositories;
 using Shouldly;
 using System;
+using System.Threading.Tasks;
 using Xunit;
 namespace MySpot.Tests.Unit.Services
 {
     public class ReservationServiceTests
     {
         [Fact]
-        public void given_valid_spotId_create_should_succeed()
+        public async Task given_valid_spotId_create_should_succeed()
         {
             //ARRANGE
             var command = new CreateReservation
                 (Guid.Parse("00000000-0000-0000-0000-000000000001"), Guid.NewGuid(), "Juan Lopez", "ARBN123", 
                 DateTime.UtcNow.AddDays(1));
+            var prueba =0;
             //ACT
-            var reservationId = _reservationService.Create(command);
+            var reservationId =  await _reservationService.CreateAsync(command);
             //ASSERT
             reservationId.ShouldNotBeNull();
             reservationId.Value.ShouldBe(command.ReservationId);
         }
 
         [Fact]
-        public void given_invalid_spotId_create_should_fail()
+        public async Task given_invalid_spotId_create_should_fail()
         {
             //ARRANGE
             var command = new CreateReservation
                 (Guid.Parse("00000000-0000-0000-0000-000000000011"), Guid.NewGuid(), "Juan Lopez", "ARBN123",
                 DateTime.UtcNow.AddDays(1));
             //ACT
-            var reservationId = _reservationService.Create(command);
+            var reservationId = await _reservationService.CreateAsync(command);
             //ASSERT
             reservationId.ShouldBeNull();
         }
         [Fact]
-        public void given_reservation_for_already_reserved_create_should_fail()
+        public async Task given_reservation_for_already_reserved_create_should_fail()
         {
             //ARRANGE
             var command = new CreateReservation
                 (Guid.Parse("00000000-0000-0000-0000-000000000001"), Guid.NewGuid(), "Juan Lopez", "ARBN123",
                 DateTime.UtcNow.AddDays(1));
 
-            _reservationService.Create(command);
+            await _reservationService.CreateAsync(command);
 
             //ACT
-            var reservationId = _reservationService.Create(command);
+            var reservationId = await _reservationService.CreateAsync(command);
             //ASSERT
             reservationId.ShouldBeNull();
 
