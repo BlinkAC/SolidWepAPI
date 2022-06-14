@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ParkingSpot.Core.DomainServices;
+using ParkingSpot.Core.Policies;
 using System;
 
 namespace ParkingSpot.Core
@@ -7,7 +9,11 @@ namespace ParkingSpot.Core
     {
         public static IServiceCollection AddCore(this IServiceCollection services)
         {
+            services.AddSingleton<IReservationPolicy, RegularEmployeeReservationPolicy>();
+            services.AddSingleton<IReservationPolicy, ManagerReservationPolicy>();
+            services.AddSingleton<IReservationPolicy, BossReservationPolicy>();
 
+            services.AddSingleton<IParkingReservationServices, ParkingReservationServices>();
             return services;
         } 
     }

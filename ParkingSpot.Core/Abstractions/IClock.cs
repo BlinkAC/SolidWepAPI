@@ -1,4 +1,4 @@
-﻿namespace ParkingSpot.Application.Services
+﻿namespace ParkingSpot.Core.Services
 {
     public interface IClock
     {

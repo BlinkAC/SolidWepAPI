@@ -1,4 +1,4 @@
-﻿using ParkingSpot.Application.Services;
+﻿using ParkingSpot.Core.Services;
 
 namespace ParkingSpot.Infrastructure.Time
 {

@@ -25,7 +25,9 @@ namespace ParkingSpot.Core.Entities
             Name = name;
         }
 
-        public void AddReservation(Reservation reservation, Date now)
+        //Cambia a ser interno porque se agrego logica por la cual
+        //no se deberia omitir las reglas y directamente poder llamar el metodo agregar
+        internal void AddReservation(Reservation reservation, Date now)
         {
             var isInvalidDate = reservation.Date < Week.From ||
                 reservation.Date > Week.To ||

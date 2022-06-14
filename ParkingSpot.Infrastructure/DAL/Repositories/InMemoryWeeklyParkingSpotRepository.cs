@@ -2,6 +2,7 @@
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.ValueObjects;
 using ParkingSpot.Core.Entities;
+using ParkingSpot.Core.Services;
 
 namespace ParkingSpot.Infrastructure.Repositories
 {

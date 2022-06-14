@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.Repositories;
+using ParkingSpot.Core.Services;
 using ParkingSpot.Infrastructure.DAL;
 using ParkingSpot.Infrastructure.Exceptions;
 using ParkingSpot.Infrastructure.Repositories;

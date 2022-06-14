@@ -2,6 +2,7 @@
 using ParkingSpot.Application.Commands;
 using ParkingSpot.Application.DTO;
 using ParkingSpot.Application.Services;
+using ParkingSpot.Core.Services;
 
 namespace ParkingSpot.Api.Controllers
 {
