@@ -49,12 +49,13 @@ namespace ParkingSpot.Application.Services
         {
 
 
-                var (spotId, reservationId, employeeName, licensePlate, date) = command;
+                var (spotId, reservationId, employeeName, licensePlate,capacity, date) = command;
             //records permiten pasar el "objeto" parcialmente
             //var (reservationId, parkingSpotId, employeeName, _, date) = command; //Es valido
             //var parkingSpotId = new ParkingSpotId(spotId);
 
             var week = new Week(_clock.Current());
+            //getByWeek no sirve porque el current trae la fecha con todo y hora y regresa null
             var weeklyParkingSpots = await _weeklyParkingSpotRepository.GetByWeekAsync(week);
             var parkingSpotId = new ParkingSpotId(spotId);
             var parkingSpotToReserve = weeklyParkingSpots.SingleOrDefault(x => x.Id == parkingSpotId);
@@ -64,7 +65,7 @@ namespace ParkingSpot.Application.Services
                     throw new WeeklyParkingSpotNotFoundException(spotId);
                 }
 
-                var reservation = new VehicleReservation(reservationId, new Date(date), employeeName, licensePlate);
+            var reservation = new VehicleReservation(reservationId, new Date(date), capacity,employeeName, licensePlate);
 
             _parkingReservationService.ReserveSpotForVehicle(
                 weeklyParkingSpots,

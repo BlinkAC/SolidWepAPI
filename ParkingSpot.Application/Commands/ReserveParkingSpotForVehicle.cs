@@ -6,5 +6,6 @@
         Guid ReservationId,
         string EmployeeName,
         string LicensePlate,
+        int capacity,
         DateTime date);
 }

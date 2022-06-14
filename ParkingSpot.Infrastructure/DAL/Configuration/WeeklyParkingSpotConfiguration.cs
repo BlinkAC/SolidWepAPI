@@ -2,11 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ParkingSpot.Core.Entities;
 using ParkingSpot.Core.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ParkingSpot.Infrastructure.DAL.Configuration
 {
@@ -20,10 +16,16 @@ namespace ParkingSpot.Infrastructure.DAL.Configuration
                 .HasConversion(x => x.Value, x => new ParkingSpotId(x));
 
             builder.Property(x => x.Week)
+                .IsRequired()
                 .HasConversion(x => x.From.Value, x => new Week(x));
 
             builder.Property(x => x.Name)
+                .IsRequired()
                 .HasConversion(x => x.Value, x => new ParkingSpotName(x));
+
+            builder.Property(x => x.Capacity)
+                .IsRequired()
+                .HasConversion(x => x.Value,x => new Capacity(x));
         }
     }
 }

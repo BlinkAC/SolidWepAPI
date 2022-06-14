@@ -13,7 +13,8 @@ namespace ParkingSpot.Core.Entities
 
         public LicensePlate LicensePlate { get; private set; }
 
-        public VehicleReservation(ReservationId id, Date date, EmployeeName employeeName, LicensePlate licensePlate) : base(id, date)
+        public VehicleReservation(ReservationId id, Date date, Capacity capacity, EmployeeName employeeName, LicensePlate licensePlate) 
+            : base(id, capacity, date)
         {
             EmployeeName = employeeName;
             LicensePlate = licensePlate;
