@@ -35,10 +35,15 @@ namespace ParkingSpot.Infrastructure.DAL.Repositories
             await _weeklyParkingSpot.Include(x => x.Reservations)
             .ToListAsync();
 
+        //Se supone
         public async Task<IEnumerable<WeeklyParkingSpot>> GetByWeekAsync(Week week)
-        => await _weeklyParkingSpot.Include(x => x.Reservations)
-            .Where(sp => sp.Week == week)
-            .ToListAsync();
+        {
+            var spots =await _weeklyParkingSpot.Include(x => x.Reservations)
+                .ToListAsync();
+
+                         
+            return spots;
+        }
 
         public async Task UpdateAsync(WeeklyParkingSpot parkingSpot)
         {

@@ -14,6 +14,8 @@ namespace ParkingSpot.Core.ValueObjects
         public const string Manager = nameof(Manager);
         public const string Boss = nameof(Boss);
 
+        private Jobtitle (string value) => Value = value;
+
         public static implicit operator string(Jobtitle jobtitle)
         => jobtitle.Value;
 

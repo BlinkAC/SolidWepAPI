@@ -23,7 +23,7 @@ namespace ParkingSpot.Core.DomainServices
             IEnumerable<WeeklyParkingSpot> allParkingSpots,
             Jobtitle jobtitle,
             WeeklyParkingSpot parkingSpotToReserve,
-            Reservation reservation)
+            VehicleReservation reservation)
         {
             var parkingSpotId = parkingSpotToReserve.Id;
             var policy = _policies.SingleOrDefault(x => x.CanBeApplied(jobtitle));
@@ -39,6 +39,18 @@ namespace ParkingSpot.Core.DomainServices
             }
 
             parkingSpotToReserve.AddReservation(reservation, new Date(_clock.Current()));
+        }
+
+
+        public void ReserveSpotForCleaning(IEnumerable<WeeklyParkingSpot> allParkingSpots, Date date)
+        {
+            
+            foreach(var parkingSpot in allParkingSpots)
+            {
+                var reservationsForSameDay = parkingSpot.Reservations.Where(x => x.Date == date);
+                parkingSpot.DeleteReservations(reservationsForSameDay);
+                parkingSpot.AddReservation(new CleaningReservation(ReservationId.Create().Value, date), new Date(_clock.Current()));
+            }
         }
     }
 }

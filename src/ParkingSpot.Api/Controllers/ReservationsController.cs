@@ -42,10 +42,10 @@ namespace ParkingSpot.Api.Controllers
             return reservation;
         }
 
-        [HttpPost]
-        public async Task<ActionResult> post([FromBody] CreateReservation command)
+        [HttpPost("vehicle")]
+        public async Task<ActionResult> post([FromBody] ReserveParkingSpotForVehicle command)
         {
-            await _reservationService.CreateAsync(command with { ReservationId = Guid.NewGuid() } );
+            await _reservationService.ReserveForVehicleAsync(command with { ReservationId = Guid.NewGuid() } );
 
 
             //Url hardcodeada
@@ -56,11 +56,18 @@ namespace ParkingSpot.Api.Controllers
             return CreatedAtAction(nameof(GetSingle), new { Id = command.ReservationId }, default);
         }
 
+        [HttpPost("cleaning")]
+        public async Task<ActionResult> post([FromBody] ReserveParkingForCleaning command)
+        {
+            await _reservationService.ReserveForCleaningAsync(command);
+            return NoContent();
+        }
+
         [HttpPut("{Id:guid}")]
         public async Task<ActionResult> put( Guid Id, ChangeReservationLicensePlate command)
         {
             
-            await _reservationService.UpdateAsync(command with { ReservationId = Id } );
+            await _reservationService.ChangeReservationLincensePlateAsync(command with { ReservationId = Id } );
 
 
             return NoContent();

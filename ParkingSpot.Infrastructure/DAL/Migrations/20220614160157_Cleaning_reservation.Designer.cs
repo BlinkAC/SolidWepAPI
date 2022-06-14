@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using ParkingSpot.Infrastructure.DAL.Repositories;
@@ -11,9 +12,10 @@ using ParkingSpot.Infrastructure.DAL.Repositories;
 namespace ParkingSpot.Infrastructure.DAL.Migrations
 {
     [DbContext(typeof(MySpotDbContext))]
-    partial class MySpotDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220614160157_Cleaning_reservation")]
+    partial class Cleaning_reservation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -15,12 +15,12 @@ namespace MySpot.Tests.Unit.Services
         public async Task given_valid_spotId_create_should_succeed()
         {
             //ARRANGE
-            var command = new CreateReservation
+            var command = new ReserveParkingSpotForVehicle
                 (Guid.Parse("00000000-0000-0000-0000-000000000001"), Guid.NewGuid(), "Juan Lopez", "ARBN123", 
                 DateTime.UtcNow.AddDays(1));
             var prueba =0;
             //ACT
-            var reservationId =  await _reservationService.CreateAsync(command);
+            var reservationId =  await _reservationService.ReserveForVehicleAsync(command);
             //ASSERT
             reservationId.ShouldNotBeNull();
             reservationId.Value.ShouldBe(command.ReservationId);
@@ -30,11 +30,11 @@ namespace MySpot.Tests.Unit.Services
         public async Task given_invalid_spotId_create_should_fail()
         {
             //ARRANGE
-            var command = new CreateReservation
+            var command = new ReserveParkingSpotForVehicle
                 (Guid.Parse("00000000-0000-0000-0000-000000000011"), Guid.NewGuid(), "Juan Lopez", "ARBN123",
                 DateTime.UtcNow.AddDays(1));
             //ACT
-            var reservationId = await _reservationService.CreateAsync(command);
+            var reservationId = await _reservationService.ReserveForVehicleAsync(command);
             //ASSERT
             reservationId.ShouldBeNull();
         }
@@ -42,14 +42,14 @@ namespace MySpot.Tests.Unit.Services
         public async Task given_reservation_for_already_reserved_create_should_fail()
         {
             //ARRANGE
-            var command = new CreateReservation
+            var command = new ReserveParkingSpotForVehicle
                 (Guid.Parse("00000000-0000-0000-0000-000000000001"), Guid.NewGuid(), "Juan Lopez", "ARBN123",
                 DateTime.UtcNow.AddDays(1));
 
-            await _reservationService.CreateAsync(command);
+            await _reservationService.ReserveForVehicleAsync(command);
 
             //ACT
-            var reservationId = await _reservationService.CreateAsync(command);
+            var reservationId = await _reservationService.ReserveForVehicleAsync(command);
             //ASSERT
             reservationId.ShouldBeNull();
 

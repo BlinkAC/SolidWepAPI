@@ -25,7 +25,7 @@
 
         public static Date Now => new(DateTimeOffset.Now);
 
-        public override string ToString() => Value.ToString("d");
+        //public override string ToString() => Value.ToString("d");
 
     }
 }

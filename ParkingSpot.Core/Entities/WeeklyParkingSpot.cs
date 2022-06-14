@@ -7,7 +7,7 @@ namespace ParkingSpot.Core.Entities
     {
         public ParkingSpotId Id { get; }
 
-        public Week Week { get; private set; }
+        public Week Week { get;  set; }
 
         public ParkingSpotName Name { get; }
         //Ienumerable - Solo lectura y se castea reservations 
@@ -63,5 +63,8 @@ namespace ParkingSpot.Core.Entities
 
         //    _reservations.Remove(reservationExists);
         //}
+
+        public void DeleteReservations(IEnumerable<Reservation> reservations) =>
+        _reservations.RemoveWhere(x => reservations.Any(r => r.Id == x.Id));
     }
 }
