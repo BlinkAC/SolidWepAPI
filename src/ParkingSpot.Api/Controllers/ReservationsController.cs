@@ -44,31 +44,23 @@ namespace ParkingSpot.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> post([FromBody] CreateReservation command)
         {
-            var id = await _reservationService.CreateAsync(command with { ReservationId = Guid.NewGuid() } );
+            await _reservationService.CreateAsync(command with { ReservationId = Guid.NewGuid() } );
 
-            if(id == null)
-            {
-                return BadRequest();
-            }
 
             //Url hardcodeada
             //return Created($"reservartions/{reservation.Id}", default);
 
             //Al cambiar el metodo cambia la url
             //nameof hace referencia al metodo
-            return CreatedAtAction(nameof(GetSingle), new { Id = id }, default);
+            return CreatedAtAction(nameof(GetSingle), new { Id = command.ReservationId }, default);
         }
 
         [HttpPut("{Id:guid}")]
         public async Task<ActionResult> put( Guid Id, ChangeReservationLicensePlate command)
         {
             
-            var succeeded = await _reservationService.UpdateAsync(command with { ReservationId = Id } );
+            await _reservationService.UpdateAsync(command with { ReservationId = Id } );
 
-            if(!succeeded)
-            {
-                return BadRequest();
-            }
 
             return NoContent();
         }
@@ -76,12 +68,7 @@ namespace ParkingSpot.Api.Controllers
         [HttpDelete("{Id:int}")]
         public async Task<ActionResult> delete( Guid Id)
         {
-            var succeeded = await _reservationService.DeleteAsync( new DeleteReservation(Id) );    
-
-            if (!succeeded)
-            {
-                return BadRequest();
-            }
+            await _reservationService.DeleteAsync( new DeleteReservation(Id) );    
 
             return NoContent();
         }

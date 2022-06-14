@@ -1,8 +1,10 @@
 using ParkingSpot.Application;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core;
+using ParkingSpot.Core.Exceptions;
 using ParkingSpot.Core.Repositories;
 using ParkingSpot.Infrastructure;
+using ParkingSpot.Infrastructure.Exceptions;
 using ParkingSpot.Infrastructure.Repositories;
 using ParkingSpot.Infrastructure.Time;
 
@@ -37,6 +39,7 @@ var app = builder.Build();
 
 //app.UseAuthorization();
 
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();

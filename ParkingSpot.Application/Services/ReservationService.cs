@@ -4,6 +4,7 @@ using ParkingSpot.Core.Entities;
 using ParkingSpot.Application.Commands;
 using ParkingSpot.Core.Exceptions;
 using ParkingSpot.Core.ValueObjects;
+using ParkingSpot.Application.Exceptions;
 
 namespace ParkingSpot.Application.Services
 {
@@ -42,11 +43,10 @@ namespace ParkingSpot.Application.Services
         public async Task<ReservationDTO> GetSingleAsync(Guid Id) => (await GetAllWeeklyAsync()).SingleOrDefault(x => x.Id == Id);
 
         //public Guid? Create(Guid parkingSpotId,CreateReservation command) 
-        public async Task<Guid?> CreateAsync(CreateReservation command)
+        public async Task CreateAsync(CreateReservation command)
         {
 
-            try
-            {
+
                 var (spotId, reservationId, employeeName, licensePlate, date) = command;
                 //records permiten pasar el "objeto" parcialmente
                 //var (reservationId, parkingSpotId, employeeName, _, date) = command; //Es valido
@@ -57,31 +57,25 @@ namespace ParkingSpot.Application.Services
 
                 if (weeklyParkingSpot == null)
                 {
-                    return default;
+                    throw new WeeklyParkingSpotNotFoundException(spotId);
                 }
 
                 var reservation = new Reservation(reservationId, employeeName, licensePlate, new Date(date));
 
                 weeklyParkingSpot.AddReservation(reservation, new Date(CurrentDate()));
                 await _weeklyParkingSpotRepository.UpdateAsync(weeklyParkingSpot);
-                return reservation.Id;
-            }
-            catch (CustomException ex)
-            {
-                return default;
-            }
+
         }
 
-        public async Task<bool> UpdateAsync(ChangeReservationLicensePlate command)
+        public async Task UpdateAsync(ChangeReservationLicensePlate command)
         {
-            try
-            {
+
                 var weeklyParkingSpot = await GetParkingSpotById(command.ReservationId);
 
 
                 if (weeklyParkingSpot is null)
                 {
-                    return false;
+                    throw new WeeklyParkingSpotNotFoundException();
                 }
 
                 var reservationId = new ReservationId(command.ReservationId);
@@ -89,34 +83,27 @@ namespace ParkingSpot.Application.Services
 
                 if (reservation is null)
                 {
-                    return false;
+                throw new ReservationSpotNotFoundException(command.ReservationId);
                 }
 
                 reservation.UpdateLicensePlate(command.LicensePlate);
                 await _weeklyParkingSpotRepository.UpdateAsync(weeklyParkingSpot);
-                return true;
-            }
-            catch (CustomException ex)
-            {
-                return false;
-            }
+   
         }
 
-        public async Task<bool> DeleteAsync(DeleteReservation command)
+        public async Task DeleteAsync(DeleteReservation command)
         {
 
             var existingReservation = await GetParkingSpotById(command.ReservationId);
 
             if (existingReservation is null)
             {
-                return false;
+                throw new WeeklyParkingSpotNotFoundException(command.ReservationId);
             }
 
 
             existingReservation.DeleteReservation(command.ReservationId);
             await _weeklyParkingSpotRepository.UpdateAsync(existingReservation);
-            return true;
-
 
         }
 

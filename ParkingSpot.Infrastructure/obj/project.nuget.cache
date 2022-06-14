@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gmv2SC+qp06ElOE5AWLZZvgvOkvaRqlNj2zQJbyl0YiqHI4VIowECPuexKwuUsUd0hGYVawml15SMulqhDDtXQ==",
+  "dgSpecHash": "RsdTIxQORfbaFY5cdQ0sZPpCUmCymJdeVlMlDGRBE2w5oTBD771i/vOd2X3GAxOpuwDWQYMBwfZELcBw16gYmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",

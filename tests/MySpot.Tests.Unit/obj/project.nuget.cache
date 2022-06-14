@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h5C98LVdp6HtaRsrjlSoVwGCM4DhS8+cdq4PpDILiaZxuyawI9x9zuTQrWCHG3G1tEzUsnP+OfAMH32d/Tf4yA==",
+  "dgSpecHash": "PmhzNfltT43PBaSAjIbVFq0V2nOauIdX7TE/dk7zW7CkXGsDHB1GKnic1Of9gFiOOIMDWro3d3r8X/fg4DpwNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
+  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\diffengine\\6.4.9\\diffengine.6.4.9.nupkg.sha512",

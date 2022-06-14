@@ -1,8 +1,10 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.Repositories;
 using ParkingSpot.Infrastructure.DAL;
+using ParkingSpot.Infrastructure.Exceptions;
 using ParkingSpot.Infrastructure.Repositories;
 using ParkingSpot.Infrastructure.Time;
 using System.Runtime.CompilerServices;
@@ -20,6 +22,7 @@ namespace ParkingSpot.Infrastructure
 
             services
                 .AddPostgres(configuration)
+                .AddSingleton<ExceptionMiddleware>()
                 //.AddSingleton<IWeeklyParkingSpotRepository, InMemoryWeeklyParkingSpotRepository>()
                 .AddSingleton<IClock, Clock>();
             return services;

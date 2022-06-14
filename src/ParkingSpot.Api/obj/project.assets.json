@@ -963,11 +963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj",
+      "projectUniqueName": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj",
       "projectName": "ParkingSpot.Api",
-      "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj",
+      "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\src\\ParkingSpot.Api\\ParkingSpot.Api.csproj",
       "packagesPath": "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\src\\ParkingSpot.Api\\obj\\",
+      "outputPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\src\\ParkingSpot.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oscar.a.a.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -984,8 +984,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj"
+            "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Infrastructure\\ParkingSpot.Infrastructure.csproj"
             }
           }
         }

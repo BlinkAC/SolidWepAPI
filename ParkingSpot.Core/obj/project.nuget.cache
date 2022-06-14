@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+rTTKgQVMmADR1PMsJuIfLVX1GgrtNl3Lzqhb8/DhuJt4CIE7T4Lf1vC1+TqYgWE7muEKo/+Y0GGNwQrWMRE2Q==",
+  "dgSpecHash": "iMxM3FbxkIZDVy9qXn030zlAZv7fYJNipUSxRmNsvqe/zhIMIU+TfjRyzMxUfXHHTdoFWcZ/oLPSKnRbOcJRvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\Source\\Repos\\SolidWepAPI\\ParkingSpot.Core\\ParkingSpot.Core.csproj",
+  "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Core\\ParkingSpot.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
