@@ -72,11 +72,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\ParkingSpot.Application\\ParkingSpot.Application.csproj",
+      "projectUniqueName": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Application\\ParkingSpot.Application.csproj",
       "projectName": "ParkingSpot.Application",
-      "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\ParkingSpot.Application\\ParkingSpot.Application.csproj",
+      "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Application\\ParkingSpot.Application.csproj",
       "packagesPath": "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\ParkingSpot.Application\\obj\\",
+      "outputPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oscar.a.a.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\ParkingSpot.Core\\ParkingSpot.Core.csproj": {
-              "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\parkingProject\\ParkingSpot.Core\\ParkingSpot.Core.csproj"
+            "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Core\\ParkingSpot.Core.csproj": {
+              "projectPath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Core\\ParkingSpot.Core.csproj"
             }
           }
         }

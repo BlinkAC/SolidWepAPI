@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MySpot.Tests.Unit
-build_property.ProjectDir = C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\
+build_property.ProjectDir = C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\
