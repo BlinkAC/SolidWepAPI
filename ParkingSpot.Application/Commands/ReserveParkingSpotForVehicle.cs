@@ -1,4 +1,6 @@
-﻿namespace ParkingSpot.Application.Commands
+﻿using ParkingSpot.Application.Abstractions;
+
+namespace ParkingSpot.Application.Commands
 {
     //Los commands son inmutables por naturaleza
     public sealed record ReserveParkingSpotForVehicle(
@@ -7,5 +9,5 @@
         string EmployeeName,
         string LicensePlate,
         int capacity,
-        DateTime date);
+        DateTime date) : ICommand;
 }

@@ -6,8 +6,10 @@ namespace ParkingSpot.Core.ValueObjects
     {
         public string Value { get; } = Value ?? throw new InvalidEmployeeNameException();
 
-        public static implicit operator string(EmployeeName name) => name.Value;
+        public static implicit operator string(EmployeeName name)
+               => name.Value;
 
-        public static implicit operator EmployeeName(string value) => new(value);
+        public static implicit operator EmployeeName(string value)
+            => new(value);
     }
 }

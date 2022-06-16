@@ -80,3 +80,5 @@ C:\Users\oscar.a.a.rodriguez\Source\Repos\SolidWepAPI\src\ParkingSpot.Api\obj\De
 C:\Users\oscar.a.a.rodriguez\Source\Repos\SolidWepAPI\src\ParkingSpot.Api\obj\Debug\net6.0\ParkingSpot.Api.pdb
 C:\Users\oscar.a.a.rodriguez\Source\Repos\SolidWepAPI\src\ParkingSpot.Api\obj\Debug\net6.0\ParkingSpot.Api.genruntimeconfig.cache
 C:\Users\oscar.a.a.rodriguez\Source\Repos\SolidWepAPI\src\ParkingSpot.Api\obj\Debug\net6.0\ref\ParkingSpot.Api.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Scrutor.dll

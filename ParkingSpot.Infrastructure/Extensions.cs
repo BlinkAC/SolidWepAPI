@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ParkingSpot.Application.Abstractions;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.Repositories;
 using ParkingSpot.Core.Services;
@@ -26,6 +27,14 @@ namespace ParkingSpot.Infrastructure
                 .AddSingleton<ExceptionMiddleware>()
                 //.AddSingleton<IWeeklyParkingSpotRepository, InMemoryWeeklyParkingSpotRepository>()
                 .AddSingleton<IClock, Clock>();
+
+
+            var applicationAssembly = typeof(AppOptions).Assembly;
+
+            services.Scan(s => s.FromAssemblies(applicationAssembly)
+            .AddClasses(c => c.AssignableTo(typeof(IQueryHandler<,>)))
+            .AsImplementedInterfaces()
+            .WithScopedLifetime());
             return services;
         }
 

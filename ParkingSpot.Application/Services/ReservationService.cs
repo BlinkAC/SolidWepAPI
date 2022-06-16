@@ -49,89 +49,23 @@ namespace ParkingSpot.Application.Services
         {
 
 
-                var (spotId, reservationId, employeeName, licensePlate,capacity, date) = command;
-            //records permiten pasar el "objeto" parcialmente
-            //var (reservationId, parkingSpotId, employeeName, _, date) = command; //Es valido
-            //var parkingSpotId = new ParkingSpotId(spotId);
-
-            var week = new Week(_clock.Current());
-            //getByWeek no sirve porque el current trae la fecha con todo y hora y regresa null
-            var weeklyParkingSpots = await _weeklyParkingSpotRepository.GetByWeekAsync(week);
-            var parkingSpotId = new ParkingSpotId(spotId);
-            var parkingSpotToReserve = weeklyParkingSpots.SingleOrDefault(x => x.Id == parkingSpotId);
-
-                if (parkingSpotToReserve == null)
-                {
-                    throw new WeeklyParkingSpotNotFoundException(spotId);
-                }
-
-            var reservation = new VehicleReservation(reservationId, new Date(date), capacity,employeeName, licensePlate);
-
-            _parkingReservationService.ReserveSpotForVehicle(
-                weeklyParkingSpots,
-                Jobtitle.Employee,
-                parkingSpotToReserve,
-                reservation);
-                await _weeklyParkingSpotRepository.UpdateAsync(parkingSpotToReserve);
-
         }
 
         public async Task ReserveForCleaningAsync(ReserveParkingForCleaning command)
         {
-            var week = new Week(command.date);
-            var weeklyParkingSpots = (await _weeklyParkingSpotRepository.GetByWeekAsync(week)).ToList();
 
-            
-            _parkingReservationService.ReserveSpotForCleaning(weeklyParkingSpots, new Date(command.date));
-
-            //provisional
-           foreach (var parkingSpot in weeklyParkingSpots)
-            {
-                await _weeklyParkingSpotRepository.UpdateAsync(parkingSpot);
-            }
 
         }
 
         public async Task ChangeReservationLincensePlateAsync(ChangeReservationLicensePlate command)
         {
 
-                var weeklyParkingSpot = await GetParkingSpotById(command.ReservationId);
 
-
-                if (weeklyParkingSpot is null)
-                {
-                    throw new WeeklyParkingSpotNotFoundException();
-                }
-
-                var reservationId = new ReservationId(command.ReservationId);
-                var reservation = weeklyParkingSpot
-                                    .Reservations
-                                    .OfType<VehicleReservation>()
-                                    .SingleOrDefault(x => x.Id == reservationId);
-
-                if (reservation is null)
-                {
-                throw new ReservationSpotNotFoundException(command.ReservationId);
-                }
-
-                reservation.UpdateLicensePlate(command.LicensePlate);
-                await _weeklyParkingSpotRepository.UpdateAsync(weeklyParkingSpot);
-   
         }
 
         public async Task DeleteAsync(DeleteReservation command)
         {
 
-            var existingReservation = await GetParkingSpotById(command.ReservationId);
-
-            if (existingReservation is null)
-            {
-                throw new WeeklyParkingSpotNotFoundException(command.ReservationId);
-            }
-
-
-            existingReservation.DeleteReservation(command.ReservationId);
-            await _weeklyParkingSpotRepository.UpdateAsync(existingReservation);
 
         }
 
