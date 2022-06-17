@@ -45,10 +45,10 @@ namespace ParkingSpot.Infrastructure.DAL.Repositories
             return spots;
         }
 
-        public async Task UpdateAsync(WeeklyParkingSpot parkingSpot)
+        public Task UpdateAsync(WeeklyParkingSpot parkingSpot)
         {
             _weeklyParkingSpot.Update(parkingSpot);
-            await _dbContext.SaveChangesAsync();
+            return Task.CompletedTask;
         }
     }
 }

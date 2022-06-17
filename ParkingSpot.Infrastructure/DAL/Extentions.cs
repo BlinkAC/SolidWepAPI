@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ParkingSpot.Application.Abstractions;
 using ParkingSpot.Core.Repositories;
+using ParkingSpot.Infrastructure.DAL.Decorators;
 using ParkingSpot.Infrastructure.DAL.Repositories;
 
 namespace ParkingSpot.Infrastructure.DAL
@@ -19,6 +21,10 @@ namespace ParkingSpot.Infrastructure.DAL
             //Con esto se da la oprtunidad que dependiendo de donde viene el request se pueda usar inMemory o de la BD
             services.AddScoped<IWeeklyParkingSpotRepository, PostgresWeeklyParkingSpotRepository>();
             services.AddHostedService<DatabaseInitializer>();
+
+            services.AddScoped<IUnitOfWork, PostgresUnitOfWork>();
+
+            services.TryDecorate(typeof(ICommandHandler<>), typeof(UnitOfWorkCommandHandlerDecorator<>));
 
             //Parece que hay un error/bug con versiones anteriores de ngpsql relacionado con el datetimestamp y EF
             //solucion
