@@ -7,6 +7,7 @@ using ParkingSpot.Core.Repositories;
 using ParkingSpot.Core.Services;
 using ParkingSpot.Infrastructure.DAL;
 using ParkingSpot.Infrastructure.Exceptions;
+using ParkingSpot.Infrastructure.Logging;
 using ParkingSpot.Infrastructure.Repositories;
 using ParkingSpot.Infrastructure.Time;
 using System.Runtime.CompilerServices;
@@ -28,6 +29,7 @@ namespace ParkingSpot.Infrastructure
                 //.AddSingleton<IWeeklyParkingSpotRepository, InMemoryWeeklyParkingSpotRepository>()
                 .AddSingleton<IClock, Clock>();
 
+            services.AddCustomLogging();
 
             var applicationAssembly = typeof(AppOptions).Assembly;
 

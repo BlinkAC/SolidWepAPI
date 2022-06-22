@@ -6,40 +6,44 @@ i:{00000000-0000-0000-0000-000000000000}:src
 i:{952ac06a-c25a-4a32-aaf1-8ffb7fa86730}:ParkingSpot.Api
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\bin\debug\net6.0\parkingspot.api.dll
 ++Connected Services 
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1272
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1314
 ++Dependencias
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1271
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:>969
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:>1044
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>968
-i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>967
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1313
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:>1193
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1192
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:>1191
+i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1194
 ++Properties
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\properties\
 ++Controllers
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\controllers\
+++ParkingSpotController.cs
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\controllers\parkingspotcontroller.cs
+++ReservationsController.cs
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\controllers\reservationscontroller.cs
 ++appsettings.json
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\appsettings.json
 ++Program.cs
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\program.cs
 ++No se detectaron dependencias de servicio
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1273
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1315
 ++Analizadores
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:analizadores
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:analizadores
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:analizadores
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:analizadores
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:analizadores
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:analizadores
 ++Marcos de trabajo
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:marcos de trabajo
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:marcos de trabajo
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:marcos de trabajo
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:marcos de trabajo
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:marcos de trabajo
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:marcos de trabajo
 ++Paquetes
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:paquetes
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:paquetes
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:paquetes
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:paquetes
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:paquetes
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:paquetes
 ++Proyectos
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:proyectos
@@ -48,8 +52,6 @@ i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:proyectos
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:proyectos
 ++launchSettings.json
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\properties\launchsettings.json
-++ReservationsController.cs
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\controllers\reservationscontroller.cs
 ++appsettings.Development.json
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
@@ -71,14 +73,14 @@ i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\program files\dotnet\sdk\6.0.200\sdk
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
@@ -93,8 +95,8 @@ i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\program files\dotnet\sdk\6.0.200\sdk
 ++System.Text.Json.SourceGeneration
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.AspNetCore.App
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\microsoft.aspnetcore.app
@@ -102,15 +104,15 @@ i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\rep
 ++Microsoft.NETCore.App
 i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\microsoft.netcore.app
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\microsoft.netcore.app
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\microsoft.netcore.app
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\microsoft.netcore.app
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\microsoft.netcore.app
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\tests\myspot.tests.unit\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore.Design (6.0.5)
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1316
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1385
 ++Swashbuckle.AspNetCore (6.2.3)
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1317
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:>1386
 ++ParkingSpot.Infrastructure
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\parkingspot.infrastructure.csproj
+i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\bin\debug\net6.0\parkingspot.infrastructure.dll
 i:{952ac06a-c25a-4a32-aaf1-8ffb7fa86730}:ParkingSpot.Infrastructure
 ++ParkingSpot.Application
 i:{952ac06a-c25a-4a32-aaf1-8ffb7fa86730}:ParkingSpot.Application
@@ -118,20 +120,16 @@ i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\rep
 ++Abstractions
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\
 i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\abstractions\
-++ICommand.cs
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\icommand.cs
-++ICommandHandler.cs
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\icommandhandler.cs
-++IQuery.cs
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\iquery.cs
-++IQueryHandler.cs
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\iqueryhandler.cs
 ++Commands
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\
 ++Handler
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\
 ++ChangeReservationLicensePlateHandler.cs
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\changereservationlicenseplatehandler.cs
+++DeleteReservationHandler.cs
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\deletereservationhandler.cs
+++ReserveParkingForCleaningHandler.cs
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\reserveparkingforcleaninghandler.cs
 ++ReserveParkingSpotForVehicleHandler.cs
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\reserveparkingspotforvehiclehandler.cs
 ++ChangeReservationLicensePlate.cs
@@ -150,8 +148,8 @@ i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\rep
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\dto\weeklyparkingspotdto.cs
 ++Exceptions
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\exceptions\
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\exceptions\
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\exceptions\
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\exceptions\
 ++Queries
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\queries\
 ++GetWeeklyParkingSpots.cs
@@ -165,18 +163,93 @@ i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\rep
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\services\reservationservice.cs
 ++Extensions.cs
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\extensions.cs
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\extensions.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\handlers\extensions.cs
 i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\extensions.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\handlers\extensions.cs
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\extensions.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\logging\extensions.cs
+++ICommand.cs
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\icommand.cs
+++ICommandHandler.cs
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\icommandhandler.cs
+++IQuery.cs
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\iquery.cs
+++IQueryHandler.cs
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\abstractions\iqueryhandler.cs
 ++ReservationSpotNotFoundException.cs
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\exceptions\reservationspotnotfoundexception.cs
 ++WeeklyParkingSpotNotFoundException.cs
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\exceptions\weeklyparkingspotnotfoundexception.cs
 ++Scrutor (4.2.0)
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:>1391
+i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:>1338
 ++ParkingSpot.Core
 i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\bin\debug\net6.0\parkingspot.core.dll
 i:{952ac06a-c25a-4a32-aaf1-8ffb7fa86730}:ParkingSpot.Core
+++DAL
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\
+++Configuration
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\
+++Decorators
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\decorators\
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\logging\decorators\
+++UnitOfWorkCommandHandlerDecorator.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\decorators\unitofworkcommandhandlerdecorator.cs
+++Handlers
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\handlers\
+++Migrations
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\
+++Repositories
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\repositories\
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\repositories\
+++InMemoryWeeklyParkingSpotRepository.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\repositories\inmemoryweeklyparkingspotrepository.cs
+++PostgresWeeklyParkingSpotRepository.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\repositories\postgresweeklyparkingspotrepository.cs
+++DatabaseInitializer.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\databaseinitializer.cs
+++Extentions.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\extentions.cs
+++IUnitOfWork.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\iunitofwork.cs
+++MySpotDbContext.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\myspotdbcontext.cs
+++PostgresOptions.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\postgresoptions.cs
+++PostgresUnitOfWork.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\postgresunitofwork.cs
+++ExceptionMiddleware.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\exceptions\exceptionmiddleware.cs
+++Time
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\time\
+++AppOptions.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\appoptions.cs
+++CleaningReservationConfiguration.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\cleaningreservationconfiguration.cs
+++ReservationConfiguration.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\reservationconfiguration.cs
+++VehicleReservationConfiguration.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\vehiclereservationconfiguration.cs
+++WeeklyParkingSpotConfiguration.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\weeklyparkingspotconfiguration.cs
+++GetWeeklyParkingSpotsHandler.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\handlers\getweeklyparkingspotshandler.cs
+++20220608191214_Init.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220608191214_init.cs
+++20220614160157_Cleaning_reservation.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614160157_cleaning_reservation.cs
+++20220614212015_Capacity_Feature.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614212015_capacity_feature.cs
+++MySpotDbContextModelSnapshot.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\myspotdbcontextmodelsnapshot.cs
+++Clock.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\time\clock.cs
+++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.4)
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1328
+++20220608191214_Init.Designer.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220608191214_init.designer.cs
+++20220614160157_Cleaning_reservation.Designer.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614160157_cleaning_reservation.designer.cs
+++20220614212015_Capacity_Feature.Designer.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614212015_capacity_feature.designer.cs
 ++DomainServices
 i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\domainservices\
 ++Entities
@@ -184,9 +257,6 @@ i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\rep
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\tests\myspot.tests.unit\entities\
 ++Policies
 i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\policies\
-++Repositories
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\repositories\
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\repositories\
 ++ValueObjects
 i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\valueobjects\
 ++IClock.cs
@@ -254,59 +324,7 @@ i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\rep
 ++Week.cs
 i:{beb8351d-d546-483f-880a-0f956c1bcb43}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.core\valueobjects\week.cs
 ++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
-i:{beb8351d-d546-483f-880a-0f956c1bcb43}:>1289
-++DAL
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\
-++Configuration
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\
-++Handlers
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\handlers\
-++GetWeeklyParkingSpotsHandler.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\handlers\getweeklyparkingspotshandler.cs
-++Migrations
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\
-++InMemoryWeeklyParkingSpotRepository.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\repositories\inmemoryweeklyparkingspotrepository.cs
-++PostgresWeeklyParkingSpotRepository.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\repositories\postgresweeklyparkingspotrepository.cs
-++DatabaseInitializer.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\databaseinitializer.cs
-++Extentions.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\extentions.cs
-++MySpotDbContext.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\myspotdbcontext.cs
-++PostgresOptions.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\postgresoptions.cs
-++Time
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\time\
-++CleaningReservationConfiguration.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\cleaningreservationconfiguration.cs
-++ReservationConfiguration.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\reservationconfiguration.cs
-++VehicleReservationConfiguration.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\vehiclereservationconfiguration.cs
-++WeeklyParkingSpotConfiguration.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\configuration\weeklyparkingspotconfiguration.cs
-++20220608191214_Init.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220608191214_init.cs
-++20220614160157_Cleaning_reservation.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614160157_cleaning_reservation.cs
-++20220614212015_Capacity_Feature.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614212015_capacity_feature.cs
-++MySpotDbContextModelSnapshot.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\myspotdbcontextmodelsnapshot.cs
-++ExceptionMiddleware.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\exceptions\exceptionmiddleware.cs
-++Clock.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\time\clock.cs
-++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.4)
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1302
-++20220608191214_Init.Designer.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220608191214_init.designer.cs
-++20220614160157_Cleaning_reservation.Designer.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614160157_cleaning_reservation.designer.cs
-++20220614212015_Capacity_Feature.Designer.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\migrations\20220614212015_capacity_feature.designer.cs
+i:{beb8351d-d546-483f-880a-0f956c1bcb43}:>1367
 ++tests
 i:{00000000-0000-0000-0000-000000000000}:tests
 ++MySpot.Tests.Unit
@@ -326,29 +344,25 @@ i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\users\oscar.a.a.rodriguez\source\rep
 ++xunit.analyzers
 i:{cb05dc80-5aec-45f2-838a-c125c560698e}:c:\users\oscar.a.a.rodriguez\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
 ++coverlet.collector (3.1.0)
-i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1335
+i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1357
 ++Microsoft.NET.Test.Sdk (16.11.0)
-i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1332
+i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1354
 ++Shouldly (4.0.3)
-i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1331
+i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1353
 ++xunit (2.4.1)
-i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1333
+i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1355
 ++xunit.runner.visualstudio (2.4.3)
-i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1334
-++AppOptions.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\appoptions.cs
-++DeleteReservationHandler.cs
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\deletereservationhandler.cs
-++ReserveParkingForCleaningHandler.cs
-i:{46535bcd-6bc6-4bec-a42f-a0cd39f92ce9}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.application\commands\handler\reserveparkingforcleaninghandler.cs
-++ParkingSpotController.cs
-i:{69f28c17-2a3e-4e2d-a3de-e6f471766a0a}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\src\parkingspot.api\controllers\parkingspotcontroller.cs
-++PostgresUnitOfWork.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\postgresunitofwork.cs
-++IUnitOfWork.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\iunitofwork.cs
+i:{cb05dc80-5aec-45f2-838a-c125c560698e}:>1356
 ++NewFolder
-++Decorators
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\decorators\
-++UnitOfWorkCommandHandlerDecorator.cs
-i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\dal\decorators\unitofworkcommandhandlerdecorator.cs
+++Logging
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\logging\
+++LoggingCommandHandlerDecorator.cs
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:c:\users\oscar.a.a.rodriguez\source\repos\solidwepapi\parkingspot.infrastructure\logging\decorators\loggingcommandhandlerdecorator.cs
+++Serilog (2.11.0)
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1401
+++Serilog.Extensions.Logging (3.1.0)
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1402
+++Serilog.Sinks.Console (4.0.1)
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1403
+++Serilog.AspNetCore (5.0.0)
+i:{1ab70306-e927-4bcd-adc1-5d5e78adfe81}:>1404

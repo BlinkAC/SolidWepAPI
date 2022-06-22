@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using ParkingSpot.Core.Exceptions;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,13 @@ namespace ParkingSpot.Infrastructure.Exceptions
 {
     public sealed class ExceptionMiddleware : IMiddleware
     {
+        public ILogger<ExceptionMiddleware> _logger { get; }
+        public ExceptionMiddleware(ILogger<ExceptionMiddleware> logger)
+        {
+            _logger = logger;
+        }
+
+        
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
             try
@@ -18,7 +26,7 @@ namespace ParkingSpot.Infrastructure.Exceptions
             }
             catch (Exception exception)
             {
-
+                _logger.LogError(exception, exception.Message);
                 await HandleExceptionsAsync(exception, context);
             }
         }

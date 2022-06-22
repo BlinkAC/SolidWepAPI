@@ -1,13 +1,8 @@
 using ParkingSpot.Application;
-using ParkingSpot.Application.Services;
 using ParkingSpot.Core;
-using ParkingSpot.Core.Exceptions;
-using ParkingSpot.Core.Repositories;
 using ParkingSpot.Infrastructure;
 using ParkingSpot.Infrastructure.Exceptions;
-using ParkingSpot.Infrastructure.Repositories;
-using ParkingSpot.Infrastructure.Time;
-
+using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -18,6 +13,13 @@ builder
     .AddCore()
     .AddInfrastructure(builder.Configuration) //Iclock e InMemory
     .AddControllers();
+
+ builder.Host.UseSerilog((context, loggerConfig) => {
+     loggerConfig
+     .WriteTo.Console()/*.WriteTo.File("logs.txt")*/;
+});
+//para filtrar mas los logs se puede instalar getSeq
+
 //Componentes agregados desde cada capa/protecto
 //esto hace que las clases internas sigan siendo unicamente accesibles 
 //desde los proyectos donde estan definidas
