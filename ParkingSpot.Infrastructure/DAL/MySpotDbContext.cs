@@ -12,6 +12,7 @@ namespace ParkingSpot.Infrastructure.DAL.Repositories
     {
         public DbSet<Reservation> reservations { get; set; }
         public DbSet<WeeklyParkingSpot> weeklyParkingSpots { get; set; }
+        public DbSet<User> users { get; set; }
         public MySpotDbContext(DbContextOptions<MySpotDbContext> options) : base(options)
         {
             

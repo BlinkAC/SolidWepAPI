@@ -18,19 +18,21 @@ namespace ParkingSpot.Application.Commands.Handler
 
         private readonly IWeeklyParkingSpotRepository _respository;
         private readonly IParkingReservationServices _domainSerives;
+        private readonly IUserRepository _userRepository;
         private readonly IClock _clock;
-        public ReserveParkingSpotForVehicleHandler(IWeeklyParkingSpotRepository respository, IParkingReservationServices domainSerives, IClock clock)
+        public ReserveParkingSpotForVehicleHandler(IWeeklyParkingSpotRepository respository, IParkingReservationServices domainSerives, IClock clock, IUserRepository userRepository)
         {
             _respository = respository;
             _domainSerives = domainSerives;
             _clock = clock;
+            _userRepository = userRepository;
         }
 
         public async Task HandleAsync(ReserveParkingSpotForVehicle command)
         {
 
 
-            var (spotId, reservationId, employeeName, licensePlate, capacity, date) = command;
+            var (spotId, reservationId, userId, licencePlate, capacity, date) = command;
 
             var week = new Week(_clock.Current());
             
@@ -43,7 +45,19 @@ namespace ParkingSpot.Application.Commands.Handler
                 throw new WeeklyParkingSpotNotFoundException(spotId);
             }
 
-            var reservation = new VehicleReservation(reservationId, new Date(date), capacity, employeeName, licensePlate);
+            var user = await _userRepository.GetByIdAsync(userId);
+
+            if(user == null)
+            {
+                throw new UserNotFoundException(userId);
+            }
+
+            var reservation = new VehicleReservation(
+                reservationId,
+                new Date(date),
+                capacity,
+                new EmployeeName(user.FullName),
+                licencePlate, user.Id);
 
             _domainSerives.ReserveSpotForVehicle(
                 weeklyParkingSpots,

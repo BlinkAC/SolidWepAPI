@@ -9,15 +9,17 @@ namespace ParkingSpot.Core.Entities
 {
     public sealed class VehicleReservation : Reservation
     {
+        public UserId UserId { get; private set; }
         public EmployeeName EmployeeName { get; private set; }
 
         public LicensePlate LicensePlate { get; private set; }
 
-        public VehicleReservation(ReservationId id, Date date, Capacity capacity, EmployeeName employeeName, LicensePlate licensePlate) 
+        public VehicleReservation(ReservationId id, Date date, Capacity capacity, EmployeeName employeeName, LicensePlate licensePlate, UserId userId)
             : base(id, capacity, date)
         {
             EmployeeName = employeeName;
             LicensePlate = licensePlate;
+            UserId = userId;
         }
 
         //Puesto aqui se puede controlar como se asigna la licencia y poder realizar validaciones

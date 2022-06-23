@@ -2,11 +2,7 @@
 using ParkingSpot.Core.DomainServices;
 using ParkingSpot.Core.Repositories;
 using ParkingSpot.Core.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ParkingSpot.Application.Commands.Handler
 {
@@ -15,10 +11,11 @@ namespace ParkingSpot.Application.Commands.Handler
         private readonly IWeeklyParkingSpotRepository _repository;
         private readonly IParkingReservationServices _reservationService;
 
-        public ReserveParkingForCleaningHandler(IWeeklyParkingSpotRepository repository, IParkingReservationServices reservationService)
+        public ReserveParkingForCleaningHandler(IWeeklyParkingSpotRepository repository, IParkingReservationServices reservationService, IUserRepository userRepository)
         {
             _repository = repository;
             _reservationService = reservationService;
+
         }
 
         public async Task HandleAsync(ReserveParkingForCleaning command)

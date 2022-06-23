@@ -228,3 +228,5 @@ C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Application.pdb
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Core.pdb
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Infrastructure.pdb
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\refint\MySpot.Tests.Unit.dll

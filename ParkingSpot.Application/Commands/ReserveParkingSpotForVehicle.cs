@@ -6,7 +6,7 @@ namespace ParkingSpot.Application.Commands
     public sealed record ReserveParkingSpotForVehicle(
         Guid ParkingSpotId,
         Guid ReservationId,
-        string EmployeeName,
+        Guid UserId,
         string LicensePlate,
         int capacity,
         DateTime date) : ICommand;

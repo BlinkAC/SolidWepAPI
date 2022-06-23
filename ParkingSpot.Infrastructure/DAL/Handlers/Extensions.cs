@@ -26,5 +26,13 @@ namespace ParkingSpot.Infrastructure.DAL.Handlers
                 Date = x.Date.Value.Date
             })
         };
+
+        public static UserDto AsDto(this User entity)
+        => new()
+    {
+        UserId = entity.Id,
+        UserName = entity.Username,
+        FullName = entity.FullName
+    };
     }
 }

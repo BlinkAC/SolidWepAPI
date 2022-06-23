@@ -20,6 +20,8 @@ namespace ParkingSpot.Infrastructure.DAL
 
             //Con esto se da la oprtunidad que dependiendo de donde viene el request se pueda usar inMemory o de la BD
             services.AddScoped<IWeeklyParkingSpotRepository, PostgresWeeklyParkingSpotRepository>();
+            services.AddScoped<IUserRepository, PostgresUserRepository>();
+
             services.AddHostedService<DatabaseInitializer>();
 
             services.AddScoped<IUnitOfWork, PostgresUnitOfWork>();

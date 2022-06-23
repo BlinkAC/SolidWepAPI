@@ -82,3 +82,12 @@ C:\Users\oscar.a.a.rodriguez\Source\Repos\SolidWepAPI\src\ParkingSpot.Api\obj\De
 C:\Users\oscar.a.a.rodriguez\Source\Repos\SolidWepAPI\src\ParkingSpot.Api\obj\Debug\net6.0\ref\ParkingSpot.Api.dll
 C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Scrutor.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\src\ParkingSpot.Api\bin\Debug\net6.0\Serilog.Sinks.File.dll

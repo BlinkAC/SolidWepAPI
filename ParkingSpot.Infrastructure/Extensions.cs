@@ -9,6 +9,7 @@ using ParkingSpot.Infrastructure.DAL;
 using ParkingSpot.Infrastructure.Exceptions;
 using ParkingSpot.Infrastructure.Logging;
 using ParkingSpot.Infrastructure.Repositories;
+using ParkingSpot.Infrastructure.Security;
 using ParkingSpot.Infrastructure.Time;
 using System.Runtime.CompilerServices;
 
@@ -30,6 +31,7 @@ namespace ParkingSpot.Infrastructure
                 .AddSingleton<IClock, Clock>();
 
             services.AddCustomLogging();
+            services.AddSecurity();
 
             var applicationAssembly = typeof(AppOptions).Assembly;
 
