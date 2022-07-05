@@ -30,9 +30,11 @@ namespace ParkingSpot.Api.Controllers
         [HttpPost("{parkingSpotId:guid}/reservations/vehicle")]
         public async Task<ActionResult> post(Guid parkingSpotId,[FromBody] ReserveParkingSpotForVehicle command)
         {
+            var prueba = User.Identity.Name;
             await _reserveParkingSpotsForVehicleHandler.HandleAsync(command with {
                     ReservationId = Guid.NewGuid(),
-                    ParkingSpotId = command.ParkingSpotId
+                    ParkingSpotId = parkingSpotId,
+                    UserId = Guid.Parse(User.Identity.Name)
             });
 
             return NoContent();

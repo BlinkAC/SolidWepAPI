@@ -41,7 +41,6 @@ var app = builder.Build();
 
 //app.UseAuthorization();
 
-app.UseMiddleware<ExceptionMiddleware>();
-app.MapControllers();
+app.UseInfrastructure();
 
 app.Run();

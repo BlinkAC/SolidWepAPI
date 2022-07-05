@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ParkingSpot.Application.Abstractions;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.Repositories;
 using ParkingSpot.Core.Services;
+using ParkingSpot.Infrastructure.Auth;
 using ParkingSpot.Infrastructure.DAL;
 using ParkingSpot.Infrastructure.Exceptions;
 using ParkingSpot.Infrastructure.Logging;
@@ -22,7 +24,8 @@ namespace ParkingSpot.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            
+            services.AddSingleton<ExceptionMiddleware>();
+            services.AddHttpContextAccessor();
 
             services
                 .AddPostgres(configuration)
@@ -39,7 +42,19 @@ namespace ParkingSpot.Infrastructure
             .AddClasses(c => c.AssignableTo(typeof(IQueryHandler<,>)))
             .AsImplementedInterfaces()
             .WithScopedLifetime());
+
+            services.AddAuth(configuration);
+
             return services;
+        }
+
+        public static WebApplication UseInfrastructure(this WebApplication app)
+        {
+            app.UseMiddleware<ExceptionMiddleware>();
+            app.MapControllers();
+            app.UseAuthentication();
+            app.UseAuthorization();
+            return app;
         }
 
         public static T GetOptions<T>(this IConfiguration configuration, string sectionName) where T : class, new()
