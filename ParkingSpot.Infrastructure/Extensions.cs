@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using ParkingSpot.Application.Abstractions;
 using ParkingSpot.Application.Services;
 using ParkingSpot.Core.Repositories;
@@ -45,6 +46,17 @@ namespace ParkingSpot.Infrastructure
 
             services.AddAuth(configuration);
 
+            services.AddSwaggerGen(swagger =>
+            {
+                swagger.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "My spot API",
+                    Version = "v1",
+                });
+
+                swagger.EnableAnnotations();
+            });
+
             return services;
         }
 
@@ -54,6 +66,17 @@ namespace ParkingSpot.Infrastructure
             app.MapControllers();
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSwagger();
+            app.UseSwaggerUI();
+            //una forma de que se vea mas profesional usar ReDoc
+            //app.UseReDoc(reDoc =>
+            //{
+            //    reDoc.RoutePrefix = "docs";
+            //    reDoc.SpecUrl("swagger/v1/swagger.json");
+            //    reDoc.DocumentTitle = "My Spot API";
+            //});
+            //se abre localhost:xxx/docs
+            //nswagger
             return app;
         }
 

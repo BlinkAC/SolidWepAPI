@@ -6,6 +6,7 @@ using ParkingSpot.Application.Commands;
 using ParkingSpot.Application.DTO;
 using ParkingSpot.Application.Queries;
 using ParkingSpot.Application.Security;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace ParkingSpot.Api.Controllers
 {
@@ -33,6 +34,8 @@ namespace ParkingSpot.Api.Controllers
 
         [Authorize(Policy = "is-admin")]
         [HttpGet("{userId:Guid}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<UserDto>> Get(Guid userId)
         {
             var user = await _getUserHandler.HandleAsync(new GetUser { UserId = userId});
@@ -45,6 +48,8 @@ namespace ParkingSpot.Api.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> Post(SignUp command)
         {
             command = command with { UserId = Guid.NewGuid() };
@@ -62,6 +67,10 @@ namespace ParkingSpot.Api.Controllers
 
         //[Authorize(Policy = "is-admin")]
         [HttpGet("me")]
+        //con los action result<T> ayuda a swagger a saber que tipo de dato/objeto debe regresar la API
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [SwaggerOperation("Get list of all users")]
         public async Task<ActionResult<UserDto>> Get()
         {
             //if (string.IsNullOrEmpty(User.Identity?.Name))
@@ -82,6 +91,9 @@ namespace ParkingSpot.Api.Controllers
         //puede ser cualquier tipo de check para dejar al usuario autenticado ejecutar la accion
         [Authorize(Policy = "is-admin")]
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
         public async Task<ActionResult<IEnumerable<UserDto>>> Get([FromQuery] GetUsers query)
             => Ok(await _getUsersHandler.HandleAsync(query));
 

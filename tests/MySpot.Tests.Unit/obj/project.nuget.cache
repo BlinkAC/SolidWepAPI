@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iXyL0X5P3TgFkYsOlBBZ7hO/A97PCirTpY8etDjBYQygU2YlP/9+RY5JFOply1qaAwNWsv6PGcimY0Pwq9mbTg==",
+  "dgSpecHash": "r0NRnrVMMQMudQOOhLyooxaTGs8x17V163jN4ApR5XFcuBPtTeCv3PLA58dVsIr/Qb7NvnBbl5vb6113KL8/UQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\tests\\MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj",
   "expectedPackageFiles": [
@@ -88,8 +88,9 @@
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\shouldly\\4.0.3\\shouldly.4.0.3.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.3.1\\swashbuckle.aspnetcore.annotations.6.3.1.nupkg.sha512",
+    "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\oscar.a.a.rodriguez\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
