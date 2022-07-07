@@ -18,6 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("ParkingSpot.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkingSpot.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("MySpot.Tests.Integration")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

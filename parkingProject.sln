@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingSpot.Core", "Parking
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingSpot.Infrastructure", "ParkingSpot.Infrastructure\ParkingSpot.Infrastructure.csproj", "{1AB70306-E927-4BCD-ADC1-5D5E78ADFE81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySpot.Tests.Integration", "MySpot.Tests.Integration\MySpot.Tests.Integration.csproj", "{309E187E-2957-46C2-B43E-960D91B6A5D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{1AB70306-E927-4BCD-ADC1-5D5E78ADFE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB70306-E927-4BCD-ADC1-5D5E78ADFE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB70306-E927-4BCD-ADC1-5D5E78ADFE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309E187E-2957-46C2-B43E-960D91B6A5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309E187E-2957-46C2-B43E-960D91B6A5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309E187E-2957-46C2-B43E-960D91B6A5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309E187E-2957-46C2-B43E-960D91B6A5D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{46535BCD-6BC6-4BEC-A42F-A0CD39F92CE9} = {952AC06A-C25A-4A32-AAF1-8FFB7FA86730}
 		{BEB8351D-D546-483F-880A-0F956C1BCB43} = {952AC06A-C25A-4A32-AAF1-8FFB7FA86730}
 		{1AB70306-E927-4BCD-ADC1-5D5E78ADFE81} = {952AC06A-C25A-4A32-AAF1-8FFB7FA86730}
+		{309E187E-2957-46C2-B43E-960D91B6A5D4} = {E1129E9A-4B10-4553-BE00-7C9A4B86C24C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7111F12-C4D5-48F6-8559-DB00B2A97F13}

@@ -1,0 +1,6 @@
+{
+  "ParkingSpot.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\src\\ParkingSpot.Api",
+  "ParkingSpot.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Application",
+  "ParkingSpot.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Core",
+  "ParkingSpot.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\oscar.a.a.rodriguez\\source\\repos\\SolidWepAPI\\ParkingSpot.Infrastructure"
+}

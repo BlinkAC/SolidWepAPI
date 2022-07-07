@@ -19,6 +19,7 @@ using System.Runtime.CompilerServices;
 //Hace que sea visible para este proeycto
 //En este caso esta bien porque es para efectos de pruebas.
 [assembly: InternalsVisibleTo("MySpot.Tests.Unit")]
+[assembly: InternalsVisibleTo("MySpot.Tests.Integration")]
 namespace ParkingSpot.Infrastructure
 {
     public static class Extensions

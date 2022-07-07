@@ -230,3 +230,9 @@ C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit
 C:\Users\oscar.a.a.rodriguez\source\repos\parkingProject\tests\MySpot.Tests.Unit\bin\Debug\net6.0\ParkingSpot.Infrastructure.pdb
 C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.dll
 C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\refint\MySpot.Tests.Unit.dll
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.csproj.AssemblyReference.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.AssemblyInfoInputs.cache
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.AssemblyInfo.cs
+C:\Users\oscar.a.a.rodriguez\source\repos\SolidWepAPI\tests\MySpot.Tests.Unit\obj\Debug\net6.0\MySpot.Tests.Unit.csproj.CoreCompileInputs.cache
