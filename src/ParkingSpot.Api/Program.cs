@@ -43,4 +43,7 @@ var app = builder.Build();
 
 app.UseInfrastructure();
 
+//https://github.com/devmentors/MySpot/blob/402465185b4bd50c6a46fb1256eb2d275ce4f902/src/MySpot.Api/UsersApi.cs#L12
+//app.UseUsersApi();
+
 app.Run();
